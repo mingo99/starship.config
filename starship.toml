@@ -3,19 +3,18 @@
 format = """
 $username\
 $hostname\
-$directory\
+$directory
 $character"""
 
-# Inserts a blank line between shell prompts
 add_newline = false
 scan_timeout = 30
 
-[character] # 此模块名称为 'character'
-success_symbol = '[➜](bold green)' # 将 'success_symbol' 片段设置成颜色为 'bold green' 的 '➜'  
+[character]
+success_symbol = '[➜](bold green)'
 error_symbol = "[➜](bold red)"
 
-# [git_status]
-# disabled = true
-#
-# [package]
-# disabled = true
+[git_status]
+disabled = true
+
+[package]
+disabled = true
